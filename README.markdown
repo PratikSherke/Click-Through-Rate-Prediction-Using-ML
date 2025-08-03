@@ -1,4 +1,4 @@
-# Click-Through Rate (CTR) Prediction
+# Precision CTR Prediction with Multi-Model ML
 
 Welcome to the **Click-Through Rate (CTR) Prediction** project, a robust machine learning application designed to predict the likelihood of users clicking on online advertisements. This project leverages advanced techniques including XGBoost, Random Forest, and Logistic Regression models, enhanced with cross-validation, hyperparameter tuning, and comprehensive exploratory data analysis (EDA). It provides actionable insights for optimizing ad campaigns and maximizing return on investment (ROI).
 
