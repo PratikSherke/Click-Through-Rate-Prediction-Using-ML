@@ -32,7 +32,7 @@ Welcome to the **Click-Through Rate (CTR) Prediction** project, a robust machine
   - Ensures consistent feature sets across all models for fair comparison.
 
 - **Visualization Output**:
-  - Saves all plots (EDA, ROC curves, feature importance) to an `eda_plots` directory.
+  - EDA, ROC curves, feature importance.
   - Provides clear, labeled visualizations using Matplotlib and Seaborn.
 
 ## Prerequisites
@@ -66,18 +66,18 @@ To run this project, ensure you have the following installed:
 
 5. **Run the Application**:
    ```bash
-   python click_through_rate_prediction.py
+   CTR_Project_main.ipynb 
    ```
 
    This will:
-   - Perform EDA and save plots to the `eda_plots` directory.
+   - Perform EDA .
    - Train and evaluate models, displaying performance metrics and visualizations.
    - Generate and evaluate synthetic data using the best model.
 
 ## Usage
 
 1. **Run the Script**:
-   - Execute `python click_through_rate_prediction.py` to process the dataset, train models, and generate outputs.
+   - Execute `CTR_Project_main.ipynb ` to process the dataset, train models, and generate outputs.
    - The script will:
      - Load and preprocess `ad_records.csv`.
      - Generate EDA visualizations (histograms, correlation heatmap, box plots, target distribution).
@@ -87,15 +87,14 @@ To run this project, ensure you have the following installed:
      - Generate and evaluate synthetic data.
 
 2. **View Outputs**:
-   - Check the `eda_plots` directory for saved visualizations:
-     - `numerical_histograms.png`: Distributions of numerical features.
-     - `correlation_heatmap.png`: Feature correlations.
-     - `box_plots.png`: Feature distributions by click status.
-     - `target_distribution.png`: Target variable distribution.
-     - `roc_curves.png`: ROC curves for all models.
-     - `feature_importance_*.png`: Feature importance for each model.
+     -  Distributions of numerical features.
+     -  Feature correlations.
+     -  Feature distributions by click status.
+     -  Target variable distribution.
+     -  ROC curves for all models.
+     -  Feature importance for each model.
    - Review console output for model performance metrics, cross-validation scores, and synthetic data results.
-   - Trained models are saved as `xgboost_model.pkl`, `random_forest_model.pkl`, and `logistic_regression_model.pkl`.
+ 
 
 ## Dataset
 
@@ -140,11 +139,5 @@ The project relies on the following Python packages (listed in `requirements.txt
 - **Scalability**: The script uses a consistent feature set and scaling for fair model comparison. Additional features (e.g., text from `Ad Topic Line`) can be added for enhanced predictions.
 - **Error Handling**: Includes basic error handling for missing dataset files.
 
-
-## Contact
-
-For questions or suggestions, please open an issue on GitHub or contact [your-email@example.com].
-
----
 
 Happy predicting! 📊🚀
