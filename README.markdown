@@ -115,7 +115,7 @@ The project expects a CSV file (`ad_records.csv`) with the following columns:
 ```
 ctr-prediction/
 │
-├── click_through_rate_prediction.py  # Main script
+├── CTR_Project_main.ipynb              # Main script
 ├── requirements.txt                  # Python dependencies
 └── README.md                        # Project documentation
 ```
