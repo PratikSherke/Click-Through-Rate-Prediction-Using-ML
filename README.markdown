@@ -117,8 +117,6 @@ ctr-prediction/
 │
 ├── click_through_rate_prediction.py  # Main script
 ├── requirements.txt                  # Python dependencies
-├── .gitignore                       # Git ignore file
-├── eda_plots/                       # Directory for saved plots
 └── README.md                        # Project documentation
 ```
 
@@ -141,20 +139,6 @@ The project relies on the following Python packages (listed in `requirements.txt
 - **Scalability**: The script uses a consistent feature set and scaling for fair model comparison. Additional features (e.g., text from `Ad Topic Line`) can be added for enhanced predictions.
 - **Error Handling**: Includes basic error handling for missing dataset files.
 
-## Contributing
-
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
-
-Please follow PEP 8 guidelines and include relevant documentation for your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
