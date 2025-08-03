@@ -115,8 +115,9 @@ The project expects a CSV file (`ad_records.csv`) with the following columns:
 ```
 ctr-prediction/
 │
-├── CTR_Project_main.ipynb              # Main script
+├── CTR_Project_main.ipynb             # Main script
 ├── requirements.txt                  # Python dependencies
+├── ad_records.xls                    # dataset file
 └── README.md                        # Project documentation
 ```
 
